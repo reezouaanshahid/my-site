@@ -36,7 +36,7 @@ export default function Aboutbanner() {
           <figure className="mt-10">
             <div className="text-center text-xl font-semibold leading-8 text-white-900 sm:text-2xl sm:leading-9">
               <p>Hey there! 👋 I'm Rizwan Shahid, a passionate web developer with over 2 years of experience crafting compelling and functional websites. I thrive on transforming design concepts into responsive and interactive web experiences.
-🚀 Expertise: Converting PSD, XD, and Sketch designs to pixel-perfect HTML Bootstrap 5 and Tailwind CSS for modern and sleek interfaces JavaScript for dynamic and engaging user interactions Responsive design principles ensuring compatibility across devices Crafting HTML email templates for effective communication</p>
+🚀 Expertise: Converting PSD, XD, and Sketch designs to pixel-perfect HTML, react, next.js , Bootstrap 5 and Tailwind CSS for modern and sleek interfaces JavaScript for dynamic and engaging user interactions Responsive design principles ensuring compatibility across devices Crafting HTML email templates for effective communication</p>
             </div>
             <figcaption className="mt-10">
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">

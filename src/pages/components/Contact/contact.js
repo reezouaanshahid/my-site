@@ -43,6 +43,7 @@ export default function Contact() {
             // Clear input fields after successful submission
             setName('');
             setEmail('');
+            setmessage('');
         } catch (error) {
             console.error("Error sending data:", error);
         }
@@ -52,15 +53,20 @@ export default function Contact() {
     <section class="text-gray-400 bg-gray-900 body-font relative">
   <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-      <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" ></iframe>
-      <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+    <iframe
+                        title="map"
+                        className="absolute inset-0 w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8178184964515!2d73.07930171491419!3d33.63788838072337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391910dd1d43aead%3A0x20c5c10103df1e8d!2sFIT%20Sadiqabad%20Rawalpindi!5e0!3m2!1sen!2s!4v1646071518257!5m2!1sen!2s"
+                        loading="lazy"
+                        allowFullScreen
+                    ></iframe>      <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
         <div class="lg:w-1/2 px-6">
           <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
           <p class="mt-1"> FIT Sadiqabad Rawalpindi</p>
         </div>
         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
-          <a class="text-indigo-400 leading-relaxed">rizwan@gmail.com</a>
+          <a class="text-indigo-400 leading-relaxed">rizwanshahed232@gmail.com</a>
           <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
           <p class="leading-relaxed">03485002353</p>
         </div>
@@ -79,10 +85,10 @@ export default function Contact() {
       </div>
       <div class="relative mb-4">
         <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
-        <input type='text' value={message} onChange={(e)=>setmessage(e.target.value)} id="message" name="message" placeholder='let me know how was your experince :)' class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></input>
+        <textarea type='text' value={message} onChange={(e)=>setmessage(e.target.value)} id="message" name="message" placeholder='let me know how was your experince :)' class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
-      <button onClick={sendData} class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Click here</button>
-      <p class="text-xs text-gray-400 text-opacity-90 mt-3">I wouls love to work with you :)</p>
+      <button onClick={sendData} class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+      <p class="text-xs text-gray-400 text-opacity-90 mt-3">I would love to work with you :)</p>
     </div>
   </div>
 </section>
