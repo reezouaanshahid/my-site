@@ -6,8 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 export default function Footer() {
   return (
     <div class=" text-gray-400 bg-gray-900 p-4 items-center">
-    <div class="flex justify-center pt-10 pb-14 md:pb-9"> <img class="w-2/5 md:w-[25%] lg:w-[18%] xl:w-[15%]"
-            src="images/cucet-footer-logo.png" alt="" srcset="" /> </div>
+    
     <div class="space-y-9 grid grid-cols-1 md:grid-cols-2 md:pl-24 md:pr-16 lg:grid-cols-4 lg:px-7 xl:px-14 xl:ml-16">
         <div class="text-[#6d6d6d] font-[650] text-[16px] leading-7">
             <div class="flex justify-start md:mt-10">
@@ -47,7 +46,7 @@ export default function Footer() {
                         class="text-white pb-[38px] font-sans uppercase font-normal tracking-wider underline underline-offset-[12px] decoration-sky-500 ">
                         suppor </h1> <span class="text-white font-sans uppercase font-normal tracking-wider">t</span>
                 </div>
-                <p class=""> <a href="#" class="hover:text-sky-500 hover:text-xl duration-500">Rizwanshahed232@gmaol.com</a> </p>
+                <p class=""> <a href="#" class="hover:text-sky-500 hover:text-xl duration-500">Rizwanshahed232@gmail.com</a> </p>
             </div>
         </div>
         <div class="text-[#797878] text-[15px] font-[550] leading-6 tracking-wide md:order-4 lg:">
@@ -81,16 +80,16 @@ export default function Footer() {
     </div>
     <div class="flex justify-center mb-4 md:mb-1 text-[#afafaf] text-center text-xl space-x-3">
     
-        <p> <a href="#"
+        <p> <a href="https://www.instagram.com/reez_ou_aan?igsh=MWhnemFicHR3ZDdsbA%3D%3D&utm_source=qr"
                 class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
                     class="fa-brands fa-instagram"></i></a> </p>
-        <p> <a href="#"
+        <p> <a href="https://github.com/reezouaanshahid?tab=overview&from=2024-01-01&to=2024-01-09"
                 class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
                     class="fa-brands fa-github"></i></a> </p>
-        <p> <a href="#"
+        <p> <a href="https://www.linkedin.com/in/rizwan-barcha-5156b6261/"
                 class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
                     class="fa-brands fa-linkedin"></i></a> </p>
-        <p> <a href="#"
+        <p> <a href="https://www.facebook.com/share/7iMyRBSq13vzgqey/?mibextid=WC7FNe"
                 class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
                     class="fa-brands fa-facebook"></i></a> </p>
     </div>

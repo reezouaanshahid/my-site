@@ -64,7 +64,7 @@ export default function Head1() {
     </nav>
     <div class="flex justify-center mb-4 md:mb-1 text-[#afafaf] text-center text-xl space-x-3 ">
     
-    <p> <a href="https://www.facebook.com/login/"
+    <p> <a href="https://www.facebook.com/share/7iMyRBSq13vzgqey/?mibextid=WC7FNe"
         
             class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
                 class="fa-brands fa-facebook "></i></a> </p>
@@ -74,7 +74,7 @@ export default function Head1() {
     <p> <a href="https://www.linkedin.com/in/rizwan-barcha-5156b6261/"
             class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
                 class="fa-brands fa-linkedin"></i></a> </p>
-    <p> <a href="https://www.instagram.com/ "
+    <p> <a href="https://www.instagram.com/reez_ou_aan?igsh=MWhnemFicHR3ZDdsbA%3D%3D&utm_source=qr"
             class="w-10 h-10 bg-[#474747] hover:text-blue-500 transform ease-in-out duration-500 hover:bg-white rounded-full inline-block pt-[6px]"><i
             
                 class="fa-brands fa-instagram "></i></a> </p>
