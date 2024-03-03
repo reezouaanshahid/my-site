@@ -31,7 +31,7 @@ export default function Head1() {
         onClick={() => handleLinkClick('#home')}
       >
         HOME
-      </Link>
+      </Link> 
       <Link
        to={'Aboutbanner'}
         className="mr-5  duration-500 hover:text-2xl hover:text-sky-500"

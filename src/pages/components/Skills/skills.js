@@ -1,91 +1,59 @@
 import React from 'react'
 
 export default function Skills() {
+    
+        const skills = [
+            { name: 'HTML', percentage: 100 },
+            { name: 'CSS', percentage: 95 },
+            { name: 'JavaScript', percentage: 60 },
+            { name: 'Front-End', percentage: 85 }
+        ];
+        const skilltwo = [
+            { name: 'React', percentage: 88 },
+            { name: 'Tailwind', percentage: 90 },
+            { name: 'Bootstrap', percentage: 80 },
+            { name: 'Back-end', percentage: 30 }
+        ];
   return (
-    <section className='text-gray-400 bg-gray-900 hover:text-2xl duration-500 '>
+    <section className='text-gray-400 bg-gray-900 hover:text-2xl duration-500 max-md:mt-20'>
         <h1 className='flex justify-center text-4xl mb-8 hover:text-6xl duration-500 hover:text-sky-500'>My Skills</h1>
-        <div className='flex flex-wrap justify-evenly	'>
-        <div>
-            <h1 className='text-2xl'>code</h1>
-        <div className='border-2 border-sky-500 h-70 w-96 mt-4 hover:bg-gray-800 duration-500 '>
-            <div className='m-2'>
-                <span className='flex justify-between mt-2'>
-                <h3 >HTML</h3>
-                <h3>90%</h3>
-                </span>
-                <div className='border-2 border-sky-500	 flex '>
-                    <div className='bg-sky-500 m-2 w-72 h-2 '><span className='pl-2'></span></div>
-                </div>
-            </div>
-            <div className='m-2'>
-                <span className='flex justify-between mt-4'>
-                <h3>CSS</h3>
-                <h3>90%</h3>
-                </span>
-                <div className='border-2 border-sky-500 flex mt-2'>
-                    <div className='bg-sky-500 m-2	 w-72 h-2'></div>
-                </div>
-            </div>
-            <div className='m-2'>
-                <span className='flex justify-between mt-4'>
-                <h3>JAVASCRIPT</h3>
-                <h3>60%</h3>
-                </span>
-                <div className='border-2	border-sky-500 flex'>
-                    <div className='bg-sky-500 m-2	 w-52 h-2'></div>
-                </div>
-            </div>
-            <div className='m-2'>
-                <span className='flex justify-between mt-4'>
-                <h3>Front-End</h3>
-                <h3>70%</h3>
-                </span>
-                <div className='border-2	border-sky-500 flex'>
-                    <div className='bg-sky-500 m-2	 w-60 h-2'></div>
+        <div className='flex max-md:flex-wrap'>
+        <div className="container mx-auto mt-8">
+            <div className="max-w-xl mx-auto">
+                <h1 className="text-2xl text-center mb-4">Skills</h1>
+                <div className="border-2 border-sky-500 hover:bg-gray-800 duration-500 overflow-hidden rounded-lg shadow-lg">
+                    {skills.map((skill, index) => (
+                        <div key={index} className="m-4">
+                            <div className="flex justify-between">
+                                <h3 className="font-semibold">{skill.name}</h3>
+                                <h3 className="font-semibold">{skill.percentage}%</h3>
+                            </div>
+                            <div className=" h-2 mt-1">
+                                <div className={`h-full bg-blue-500`} style={{ width: `${skill.percentage}%` }}></div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
-        </div>
-        <div>
-            <h1 className='text-2xl'>code</h1>
-        <div className='border-2 border-sky-500 h-70 w-96 mt-4 duration-500 flex-wrap hover:bg-gray-800'>
-            <div className='m-2'>
-                <span className='flex justify-between mt-2'>
-                <h3 >React</h3>
-                <h3>100%</h3>
-                </span>
-                <div className='border-2 border-sky-500	 flex '>
-                    <div className='bg-sky-500 m-2	 w-96 h-2'><span className='pl-2'></span></div>
+
+        <div className="container mx-auto mt-8 ">
+            <div className="max-w-xl mx-auto">
+                <h1 className="text-2xl text-center mb-4">Skills</h1>
+                <div className="border-2 border-sky-500 hover:bg-gray-800 duration-500 overflow-hidden rounded-lg shadow-lg">
+                    {skilltwo.map((skilltwo, index) => (
+                        <div key={index} className="m-4">
+                            <div className="flex justify-between">
+                                <h3 className="font-semibold">{skilltwo.name}</h3>
+                                <h3 className="font-semibold">{skilltwo.percentage}%</h3>
+                            </div>
+                            <div className=" h-2 mt-1">
+                                <div className={`h-full bg-blue-500`} style={{ width: `${skilltwo.percentage}%` }}></div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-            <div className='m-2'>
-                <span className='flex justify-between mt-4'>
-                <h3>BootStrap</h3>
-                <h3>90%</h3>
-                </span>
-                <div className='border-2 border-sky-500 flex mt-2'>
-                    <div className='bg-sky-500 m-2	h-2 w-72'></div>
-                </div>
-            </div>
-            <div className='m-2'>
-                <span className='flex justify-between mt-4'>
-                <h3>Responsive</h3>
-                <h3>50%</h3>
-                </span>
-                <div className='border-2	border-sky-500 flex'>
-                    <div className='bg-sky-500 m-2 h-2 w-52'></div>
-                </div>
-            </div>
-            <div className='m-2'>
-                <span className='flex justify-between mt-4'>
-                <h3>Back-End</h3>
-                <h3>10%</h3>
-                </span>
-                <div className='border-2	border-sky-500 flex'>
-                    <div className='bg-sky-500 m-2 h-2 w-10 hover:bg-left-300'></div>
-                </div>
-            </div>
-        </div>
         </div>
         
        
