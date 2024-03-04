@@ -27,7 +27,7 @@ export default function Aboutbanner() {
         <div className="absolute inset-0 opacity-20 bg-gradient-to-b from-gray-900 to-gray-800 hover:text-8xl" />
 
         <div className="mx-auto max-w-2xl lg:max-w-4xl ">
-          <h1 className="text-4xl flex justify-center aline-center ">About Me</h1>
+          <h1 className="text-4xl flex justify-center aline-center max-md:mt-20">About Me</h1>
           <img
             className="mx-auto h-20 w-20 rounded-full mt-4"
             src={require('./I11.jpg')}

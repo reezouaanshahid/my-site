@@ -34,8 +34,8 @@ export default function Skills() {
     }, []);
 
     return (
-        <section className='text-gray-400 bg-gray-900 hover:text-2xl duration-500 max-md:mt-20'>
-            <h1 className='flex justify-center text-4xl mb-8 hover:text-6xl duration-500 hover:text-sky-500'>My Skills</h1>
+        <section className='text-gray-400 bg-gray-900 hover:text-2xl duration-500 '>
+            <h1 className='flex justify-center text-4xl mb-8 hover:text-6xl duration-500 hover:text-sky-500 max-md:pt-20'>My Skills</h1>
             <div className='flex max-md:flex-wrap'>
                 <div className="container mx-auto mt-8">
                     <div className="max-w-xl mx-auto">

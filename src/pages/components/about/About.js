@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function About1() {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font mt-20">
+    <section className="text-gray-400 bg-gray-900 body-font mt-20 ">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <motion.div
           initial={{ scale: 0 }}
